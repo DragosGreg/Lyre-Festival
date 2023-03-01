@@ -1,0 +1,46 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  background-color: aqua;
+}
+
+h2 {
+  background-color: aqua;
+}
+div {
+  background-color: rgb(230, 170, 66);
+
+  padding: 2%;
+}
+#main {
+  background-color: darkred;
+  width: 45%;
+  float: left;
+  display: inline;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: blue;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+#footer {
+  background-color: blanchedalmond;
+  width: 45%;
+  float: right;
+  display: inline;
+}
+
+.maintable {
+  background-color: blueviolet;
+}
