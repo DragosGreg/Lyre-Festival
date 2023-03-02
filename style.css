@@ -1,12 +1,12 @@
 body {
-  background-color: aqua;
+  background-color: rgb(230, 170, 66);
 }
 h1 {
-  background-color: aqua;
+  background-color: rgb(230, 170, 66);
 }
 
 h2 {
-  background-color: aqua;
+  background-color: rgb(230, 170, 66);
 }
 div {
   background-color: rgb(230, 170, 66);
@@ -25,13 +25,13 @@ table {
 }
 
 th {
-  background-color: blue;
+  background-color: rgb(16, 189, 223);
 }
 
 table,
 th,
 td {
-  border: 1px solid black;
+  border: 1px solid rgb(211, 218, 11);
 }
 
 #footer {
@@ -42,5 +42,5 @@ td {
 }
 
 .maintable {
-  background-color: blueviolet;
+  background-color: rgb(168, 180, 10);
 }
