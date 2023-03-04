@@ -3,6 +3,13 @@ body {
   background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
 }
 
+.tabletop {
+  height: 30px;
+  width: 100%;
+  border-radius: 10%;
+  background-color: aqua;
+}
+
 table {
   width: 100%;
 }
@@ -19,10 +26,6 @@ td {
   background-color: rgb(70, 185, 220);
 }
 
-form {
-  border: 5px;
-}
-
 #footer {
   background-color: blanchedalmond;
   width: 45%;
@@ -32,4 +35,44 @@ form {
 
 .maintable {
   background-color: rgb(168, 180, 10);
+}
+
+/* .input {
+  height: 30px;
+  width: 200px;
+} */
+
+.form {
+  font-size: 20px;
+}
+
+.inputcom {
+  height: 100px;
+  border-radius: 4%;
+  background-color: aqua;
+}
+
+.inputname {
+  height: 30px;
+  width: 350px;
+  border-radius: 10%;
+  background-color: aqua;
+}
+
+.inputmail {
+  height: 30px;
+  width: 350px;
+  border-radius: 10%;
+  background-color: aqua;
+}
+.send {
+  height: 30px;
+  width: 70px;
+  background-color: aqua;
+}
+
+.reset {
+  height: 30px;
+  width: 70px;
+  background-color: aqua;
 }
