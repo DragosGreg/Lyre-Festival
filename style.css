@@ -15,7 +15,7 @@ table {
 }
 
 th {
-  background-color: rgb(16, 189, 223);
+  background-color: rgb(148, 206, 215);
 }
 
 table,
@@ -23,7 +23,7 @@ th,
 td {
   border: 1px solid black;
   border-radius: 10px;
-  background-color: rgb(70, 185, 220);
+  background-color: rgb(148, 206, 215);
 }
 
 #footer {
