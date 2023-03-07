@@ -1,3 +1,10 @@
+h1 {
+  text-align: center;
+
+  color: lightcoral;
+  font-size: 45px;
+}
+
 body {
   background-color: #4fffb0bd;
 }
@@ -7,7 +14,7 @@ tr,
 td {
   border: 1px solid black;
   width: 300px;
-  height: 30px;
+  height: 25px;
   text-align: center;
   border-radius: 30%;
   background-color: hsla(156, 61%, 44%, 0.741);
@@ -16,6 +23,41 @@ td {
 .paragrafs {
   font-style: italic;
   color: blue;
+}
+
+.adeleimg {
+  position: relative;
+  left: 150px;
+}
+
+.rickyimg {
+  position: relative;
+  left: 400px;
+}
+
+.edimg {
+  position: relative;
+  left: 600px;
+}
+
+.brunoimg {
+  position: relative;
+  left: 420px;
+}
+
+.johnimg {
+  position: relative;
+  left: 650px;
+}
+
+.foodburger {
+  position: relative;
+  left: 25px;
+}
+
+.foodcrab {
+  position: relative;
+  left: 200px;
 }
 
 #footer {
@@ -27,29 +69,32 @@ td {
 
 .form {
   font-size: 20px;
+  position: relative;
+  left: 400px;
 }
 
 .inputcom {
-  height: 100px;
+  height: 105px;
+  width: 370px;
 }
 
 .inputname {
-  height: 30px;
-  width: 350px;
+  height: 25px;
+  width: 370px;
 }
 
 .inputmail {
-  height: 30px;
-  width: 350px;
+  height: 25px;
+  width: 370px;
 }
 .send {
-  height: 30px;
+  height: 25px;
   width: 70px;
   border: 0;
 }
 
 .reset {
-  height: 30px;
+  height: 25px;
   width: 70px;
   border: 0;
 }

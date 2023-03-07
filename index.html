@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/style/style.css" />
     <link rel="icon" href="/images/logo.png" />
   </head>
-     <h1 style="text-align: center">
+     <h1 >
         Lyre Festival - The Ultimate Festival on Craggy Island
      </h1>
  <body>
@@ -66,11 +66,11 @@
          </div>            
                       </ul>
              <div class="musicians img">
-                  <img src="images/adele.jpg"  width="300"  alt="Adele">
-                  <img src="images/ricky martin.jpg" width="300" alt="Ricky Martin">
-                  <img src="images/Ed sheeran.jpg" width="275" alt="Ed Sheeran">
-                  <img src="images/bruno mars.jpg" width="300" alt="Bruno Mars">
-                  <img src="images/john legend.jpg" width="300" alt="John Legend">
+                  <img src="images/adele.jpg" class="adeleimg" width="300"  alt="Adele"> 
+                  <img src="images/ricky martin.jpg" class="rickyimg" width="300" alt="Ricky Martin"> 
+                  <img src="images/Ed sheeran.jpg" class="edimg" width="275" alt="Ed Sheeran"> <br>
+                  <img src="images/bruno mars.jpg" class="brunoimg" width="300" alt="Bruno Mars">
+                  <img src="images/john legend.jpg" class="johnimg" width="300" alt="John Legend"><
          </div>
         <br>
         <br>
@@ -122,29 +122,29 @@
 
     </div>
         
- <div id="food">
-              
-              <h2>Food</h2>
-              <img width="260"  src="images/image2.jpg" alt="Lyre Festival Food Image" />
-             <img width="225" src="images/image4.jpg" alt="Lyre Festival Food Image" />
-             <h3>Places to eat and the menus</h3>
-    <ul>
-           <li>
-                <strong>The Lobster Pot</strong> - Fresh seafood and lobster. Menu
-                      includes lobster bisque, steamed lobster, and lobster rolls.
-          </li>
-           <li>
-                 <strong>Craggy Island Grill</strong> - Grilled burgers and hot dogs.
-                         Menu includes the: pickles,lettuce and onion.
-          </li>
-     </ul>
-</div>  
+      <div id="food">
+        <h2>Food</h2>
+        <h3>Places to eat and the menus</h3>
+            <ul>
+              <li>
+                  <strong>The Lobster Pot</strong> - Fresh seafood and lobster. Menu
+                        includes lobster bisque, steamed lobster, and lobster rolls.
+             </li>
+             <li>
+                    <strong>Craggy Island Grill</strong> - Grilled burgers and hot dogs.
+                            Menu includes the: pickles,lettuce and onion.
+            </li>
+          </ul>
+
+              <img width="260"  src="images/image2.jpg" class="foodburger" alt="Lyre Festival Food Image" />
+             <img width="225" src="images/image4.jpg" class="foodcrab" alt="Lyre Festival Food Image" />
+    </div>  
 
 <div id="map">
           <h2 >
                Map Location<br />
               <iframe
-                    src=https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d196003.27101762945!2d2.942017896845333!3d39.10062343635061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1677929694409!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe
+                    src=https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d196003.27101762945!2d2.942017896845333!3d39.10062343635061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1677929694409!5m2!1sen!2suk" width="50%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe
               
                ></https:>
           </h2>
@@ -159,8 +159,11 @@
                   method="post"
                  enctype="text/plain"
             >
-              Name:<br />
+              First name:<br />
 
+              <input class="inputname" type="text" name="name" /><br />
+
+               Last name: <br>
               <input class="inputname" type="text" name="name" /><br />
 
                 E-mail:<br />
