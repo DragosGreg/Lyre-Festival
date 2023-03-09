@@ -8,27 +8,24 @@
     <link rel="stylesheet" type="text/css" href="/style/style.css" />
     <link rel="icon" href="/images/logo.png" />
   </head>
-     <h1 >
-        Lyre Festival - The Ultimate Festival on Craggy Island
-     </h1>
- <body>
-    <div>
-     <table class="tabletop">
-          <tr>
-            <nav>
-                    <td><a href="#overview">Overview</a></td>
-                    <td><a href="#musicians">Musicians</a></td>
-                    <td><a href="#videos">Videos</a></td>
-                    <td><a href="#map">Map</a></td>
-                    <td><a href="#food">Food</a></td>
-                    <td><a href="#contact">Contact</a></td>
-                    
-             </nav>
-           </tr>
-     </table>
-    </div>      
 
-         <h2>Overview</h2>
+ <body>
+	<header>
+		<h1>Lyre Festival - The Ultimate Festival on Craggy Island</h1>
+		<nav>
+			<img class="imglogo"  src="/images/logo.png" alt="Music Festival Logo" />
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#musicians">Musicians</a></li>
+				<li><a href="#tickets">Tickets</a></li>
+				<li><a href="#food">Food</a></li>
+				<li><a href="#location">Location</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>   
+
+         <h2 align="center">About</h2>
                  <img
                      width="100%"
                      height="300"
@@ -53,7 +50,7 @@
 
         <div id="musicians">
              <h2>Musicians</h2>
-                     <ul>
+                     <ul class="musicians">
                          <li>Adele</li>
                         
                          <li>Ricky Martin</li>
@@ -75,30 +72,26 @@
         <br>
         <br>
         <br>
-      <div class="maintable">
-             <table >
-                     <tr>
-                         <th>First Name</th>
-                         <th>Last Name</th>
-                         <th>Position</th>
-                         <th>Department</th>
-                     </tr>
 
-                    <tr>
-                         <td>Dragos</td>
-                         <td>Grigorie</td>
-                         <td>Director</td>
-                          <td>Board</td>
-                     </tr>
-
-                    <tr>
-                      <td>Rick</td>
-                      <td>Morty</td>
-                      <td>Assistant Director</td>
-                      <td>Board</td>
-                    </tr>
-              </table>
-            </div>
+        <section id="tickets">
+          <h2>Tickets</h2>
+          <p>Grab your tickets now,don't wait for the last minute!</p>
+          <form class="ticketsform" action="checkout.php" method="post">
+            <label for="ticket-type">Ticket Type:</label>
+            <select name="ticket-type" id="ticket-type">
+              <option value="general">General Admission</option>
+              <option value="vip">VIP</option>
+              <option value="backstage">Backstage Pass</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="quantity" min="1" max="10">
+            <input type="submit" value="Buy Tickets" class="btn">
+          </form>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
      
     <div class="paragrafs">
               <p >
@@ -140,8 +133,8 @@
              <img width="225" src="images/image4.jpg" class="foodcrab" alt="Lyre Festival Food Image" />
     </div>  
 
-<div id="map">
-          <h2 >
+<div id="location">
+          <h2 align="center">
                Map Location<br />
               <iframe
                     src=https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d196003.27101762945!2d2.942017896845333!3d39.10062343635061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1677929694409!5m2!1sen!2suk" width="50%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe
@@ -149,21 +142,44 @@
                ></https:>
           </h2>
  </div>  
+
+ <br>
+ <div class="maintable">
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Position</th>
+      <th>Department</th>
+    </tr>
+    <tr>
+      <td>Dragos</td>
+      <td>Grigorie</td>
+      <td>Director</td>
+      <td>Board</td>
+    </tr>
+    <tr>
+      <td>Rick</td>
+      <td>Morty</td>
+      <td>Assistant Director</td>
+      <td>Board</td>
+    </tr>
+  </table>
+</div>
+
+ <br>
  
       <div id="contact">
 
-            <h2 >Contact us :</h2>
+            <h2 align="center" >Contact us :</h2>
        
          <form  class="form"
                  action="mailto:DragosGrigorie.bootcamp@justit.co.uk"
                   method="post"
                  enctype="text/plain"
             >
-              First name:<br />
+               Name:<br />
 
-              <input class="inputname" type="text" name="name" /><br />
-
-               Last name: <br>
               <input class="inputname" type="text" name="name" /><br />
 
                 E-mail:<br />

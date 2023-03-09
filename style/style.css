@@ -1,28 +1,79 @@
-h1 {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  color: lightcoral;
-  font-size: 45px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ce9326;
+  color: #0a0b0a;
+  font-family: fantasy;
 }
 
 body {
-  background-color: #4fffb0bd;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f0cc7d;
 }
 
-th,
-tr,
-td {
-  border: 1px solid black;
-  width: 300px;
-  height: 25px;
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 4rem 2rem;
   text-align: center;
-  border-radius: 30%;
-  background-color: hsla(156, 61%, 44%, 0.741);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 4rem 2rem;
+  text-align: center;
 }
 
 .paragrafs {
   font-style: italic;
-  color: blue;
+}
+
+#musicians {
+  text-align: center;
+  margin: 5rem;
+}
+
+.musicians {
+  list-style: none;
+  font-size: 2rem;
+  font-family: fantasy;
 }
 
 .adeleimg {
@@ -50,14 +101,47 @@ td {
   left: 650px;
 }
 
+.ticketsform {
+  background-color: #ce9326;
+}
+
+#food {
+  text-align: center;
+}
+
 .foodburger {
   position: relative;
-  left: 25px;
 }
 
 .foodcrab {
   position: relative;
-  left: 200px;
+}
+
+#map {
+  text-align: center;
+}
+
+.maintable {
+  border-collapse: collapse;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.maintable th,
+.maintable td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.maintable th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.maintable tr:hover {
+  background-color: #f5f5f5;
 }
 
 #footer {
@@ -70,7 +154,7 @@ td {
 .form {
   font-size: 20px;
   position: relative;
-  left: 400px;
+  text-align: center;
 }
 
 .inputcom {
@@ -97,4 +181,9 @@ td {
   height: 25px;
   width: 70px;
   border: 0;
+}
+
+.imglogo {
+  width: 200px;
+  height: 70px;
 }
